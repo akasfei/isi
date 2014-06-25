@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12" ng-show="docs.length < 1">
+      <div class="cbg">
+        <h2>No documents were found.</h2>
+      </div>
+    </div>
+    <div class="col-md-12" ng-repeat="doc in docs">
+      <div class="cbg">
+        <h2><a ng-href="#/docs/{{doc.title}}">{{doc.title}}</a></h2>
+        <p>{{doc.content}}</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+<div class="jumbotron starshard-header">
+  <div class="container align-center">
+    <img src="./img/starshard.svg" alt="Starshard logo" class="starshard-logo">
+    <h1>SFEI Systems v4</h1>
+    <p>Codename Starshard</p>
+    <p>
+      <a href="/isn" class="btn btn-primary">About SFEI</a> 
+      {{#unless user}}<a href="/login" class="btn btn-default">Login</a>{{/unless}}
+      {{#if user}}<a href="/profile/{{user.name}}" class="btn btn-success">Your profile</a>{{/if}}
+      {{#if user.admin}}<a href="/ops" class="btn btn-default">OPS</a>{{/if}}
+    </p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="cbg">
+        <h1>Blog</h1>
+        <img class="img-thumbnail" src="/img/blog.jpg" alt="Blog">
+        <p>SFEI's blogs - Inspirations, thoughts, and code.</p>
+        <p><a href="/blog" class="btn btn-primary">Blog</a></p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="cbg">
+        <h1>About SFEI</h1>
+        <img class="img-thumbnail" src="/img/isn.jpg" alt="ISN">
+        <p>Learn more about SFEI's projects from our Imaging Sequential Netowrk.</p>
+        <p><a href="/isn" class="btn btn-primary">Goto ISN</a></p>
+      </div>
+    </div>
+  </div>
+</div>

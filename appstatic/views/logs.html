@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-5">
+      <div class="cbg">
+        <div class="form-group"><input type="text" id="title" name="title" class="form-control" placeholder="Tag" ng-model="query.q"></div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="cbg">
+        <div class="form-group"><input type="text" id="title" name="title" class="form-control" placeholder="Limit" ng-model="query.l"></div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="cbg">
+        <button class="btn btn-primary" ng-click="get()">Search</button>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12" ng-show="logs.length < 1">
+      <div class="cbg">
+        <h2>No log matches query.</h2>
+      </div>
+    </div>
+    <div class="col-md-12" ng-repeat="log in logs">
+      <div class="cbg">
+        <p><span class="label label-default">{{log.tag}}</span> {{log.ip}} @{{log.date}}</p>
+        <p>{{log.msg}}</p>
+      </div>
+    </div>
+  </div>
+</div>

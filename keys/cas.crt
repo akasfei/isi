@@ -1,0 +1,96 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=CN, ST=HB, L=WH, O=ISITEST, OU=ISITESTU, CN=ISI CA/name=ISICA/emailAddress=ca@isitest.org
+        Validity
+            Not Before: Jun 26 01:01:00 2014 GMT
+            Not After : Jun 23 01:01:00 2024 GMT
+        Subject: C=CN, ST=HB, L=WH, O=ISITEST, OU=ISITESTU, CN=cas.isitest.org/name=ISITESTCAS/emailAddress=cas@isitest.org
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:ef:b1:ac:37:37:af:f1:fc:42:79:54:c7:84:9b:
+                    cc:f4:9c:7e:d2:21:d0:bc:c3:48:72:53:22:d4:8e:
+                    c8:29:7d:05:5b:e9:c9:f7:67:bc:fd:3a:d8:1c:6d:
+                    a4:31:b0:4f:be:43:09:32:76:89:b8:c6:b7:39:45:
+                    50:ea:42:28:90:f8:d4:ec:71:72:1b:e3:d9:6d:99:
+                    d7:9a:d4:c7:a8:7b:e1:c8:31:20:79:e9:21:b9:d6:
+                    1f:aa:c0:87:58:c5:d4:11:b4:5f:a4:f0:a1:01:02:
+                    ee:8c:a3:20:5b:25:80:af:cd:1f:fd:8d:85:5d:51:
+                    3a:40:88:f9:7a:c8:d9:32:51:e0:bc:4d:37:2b:b0:
+                    90:be:7b:81:e8:20:7e:8b:fd:58:3f:15:8c:c2:7b:
+                    12:3d:6c:eb:b6:28:d5:93:7e:c2:97:b9:bb:6f:5c:
+                    cd:c1:2b:5c:74:a9:be:65:d4:e0:c8:86:da:7b:e7:
+                    f2:e7:0d:26:31:3e:e4:b1:f1:73:1e:15:8c:1e:41:
+                    11:6a:6e:82:60:e1:2c:ab:34:18:c7:43:af:85:4f:
+                    1b:40:f3:67:71:06:07:1d:2b:41:1e:e4:d4:2d:ec:
+                    8d:4d:a4:89:95:31:b6:85:2d:f8:c8:b7:08:22:da:
+                    3f:cb:59:57:1c:51:b0:21:fa:8f:d7:55:f3:89:53:
+                    e0:df
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Server
+            Netscape Comment: 
+                Easy-RSA Generated Server Certificate
+            X509v3 Subject Key Identifier: 
+                D2:60:58:31:F8:38:D9:4F:89:1E:AC:E7:BF:33:2D:6D:28:00:E4:87
+            X509v3 Authority Key Identifier: 
+                keyid:10:1F:FE:CE:63:63:B4:D5:B9:72:82:8B:21:E4:14:1F:BC:D7:43:AB
+                DirName:/C=CN/ST=HB/L=WH/O=ISITEST/OU=ISITESTU/CN=ISI CA/name=ISICA/emailAddress=ca@isitest.org
+                serial:E2:64:EA:48:6F:48:E6:E4
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+    Signature Algorithm: sha256WithRSAEncryption
+         a0:ec:c6:37:5a:2a:dc:c0:b2:f8:1d:02:4e:cf:9f:0d:22:03:
+         e5:ef:ad:2c:73:ad:bd:16:8c:b0:9c:ab:f2:65:95:54:2f:39:
+         41:af:08:04:5a:65:63:4b:a5:ab:2d:c9:c9:ff:e9:35:74:df:
+         8c:bc:a4:35:d5:07:0f:ff:e8:fd:be:1e:1b:75:f0:02:eb:83:
+         1c:c8:84:95:b9:05:25:22:c0:62:b8:be:c1:6e:c8:2f:3f:60:
+         92:9b:8a:53:01:3e:66:d8:71:88:84:60:ce:97:c2:84:56:ab:
+         23:cf:21:36:d6:55:57:33:dc:cd:50:54:95:ec:2b:67:0b:51:
+         df:92:c4:8d:8f:34:c7:0e:83:09:24:fe:96:ab:71:40:05:86:
+         d4:91:07:11:64:90:28:ca:96:15:15:8f:b0:1d:c7:40:9f:c7:
+         77:93:0d:67:df:b0:25:f9:ea:a7:12:94:95:c1:e6:2b:46:a1:
+         b9:f5:b4:96:14:bb:bb:15:7a:85:b2:1c:a0:9f:30:96:9e:92:
+         f5:76:9a:e1:44:46:3a:ee:6c:9d:6a:0e:75:19:14:69:46:02:
+         54:56:76:ff:90:be:9d:a5:75:db:2a:b0:77:fa:81:cb:97:10:
+         67:82:b8:4e:4c:43:73:ca:cd:cb:af:83:39:98:73:7e:11:62:
+         82:91:4b:15
+-----BEGIN CERTIFICATE-----
+MIIFAzCCA+ugAwIBAgIBAjANBgkqhkiG9w0BAQsFADCBjDELMAkGA1UEBhMCQ04x
+CzAJBgNVBAgTAkhCMQswCQYDVQQHEwJXSDEQMA4GA1UEChMHSVNJVEVTVDERMA8G
+A1UECxMISVNJVEVTVFUxDzANBgNVBAMTBklTSSBDQTEOMAwGA1UEKRMFSVNJQ0Ex
+HTAbBgkqhkiG9w0BCQEWDmNhQGlzaXRlc3Qub3JnMB4XDTE0MDYyNjAxMDEwMFoX
+DTI0MDYyMzAxMDEwMFowgZsxCzAJBgNVBAYTAkNOMQswCQYDVQQIEwJIQjELMAkG
+A1UEBxMCV0gxEDAOBgNVBAoTB0lTSVRFU1QxETAPBgNVBAsTCElTSVRFU1RVMRgw
+FgYDVQQDEw9jYXMuaXNpdGVzdC5vcmcxEzARBgNVBCkTCklTSVRFU1RDQVMxHjAc
+BgkqhkiG9w0BCQEWD2Nhc0Bpc2l0ZXN0Lm9yZzCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAO+xrDc3r/H8QnlUx4SbzPScftIh0LzDSHJTItSOyCl9BVvp
+yfdnvP062BxtpDGwT75DCTJ2ibjGtzlFUOpCKJD41Oxxchvj2W2Z15rUx6h74cgx
+IHnpIbnWH6rAh1jF1BG0X6TwoQEC7oyjIFslgK/NH/2NhV1ROkCI+XrI2TJR4LxN
+NyuwkL57geggfov9WD8VjMJ7Ej1s67Yo1ZN+wpe5u29czcErXHSpvmXU4MiG2nvn
+8ucNJjE+5LHxcx4VjB5BEWpugmDhLKs0GMdDr4VPG0DzZ3EGBx0rQR7k1C3sjU2k
+iZUxtoUt+Mi3CCLaP8tZVxxRsCH6j9dV84lT4N8CAwEAAaOCAV0wggFZMAkGA1Ud
+EwQCMAAwEQYJYIZIAYb4QgEBBAQDAgZAMDQGCWCGSAGG+EIBDQQnFiVFYXN5LVJT
+QSBHZW5lcmF0ZWQgU2VydmVyIENlcnRpZmljYXRlMB0GA1UdDgQWBBTSYFgx+DjZ
+T4kerOe/My1tKADkhzCBwQYDVR0jBIG5MIG2gBQQH/7OY2O01blygosh5BQfvNdD
+q6GBkqSBjzCBjDELMAkGA1UEBhMCQ04xCzAJBgNVBAgTAkhCMQswCQYDVQQHEwJX
+SDEQMA4GA1UEChMHSVNJVEVTVDERMA8GA1UECxMISVNJVEVTVFUxDzANBgNVBAMT
+BklTSSBDQTEOMAwGA1UEKRMFSVNJQ0ExHTAbBgkqhkiG9w0BCQEWDmNhQGlzaXRl
+c3Qub3JnggkA4mTqSG9I5uQwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQD
+AgWgMA0GCSqGSIb3DQEBCwUAA4IBAQCg7MY3WircwLL4HQJOz58NIgPl760sc629
+FoywnKvyZZVULzlBrwgEWmVjS6WrLcnJ/+k1dN+MvKQ11QcP/+j9vh4bdfAC64Mc
+yISVuQUlIsBiuL7BbsgvP2CSm4pTAT5m2HGIhGDOl8KEVqsjzyE21lVXM9zNUFSV
+7CtnC1HfksSNjzTHDoMJJP6Wq3FABYbUkQcRZJAoypYVFY+wHcdAn8d3kw1n37Al
++eqnEpSVweYrRqG59bSWFLu7FXqFshygnzCWnpL1dprhREY67mydag51GRRpRgJU
+Vnb/kL6dpXXbKrB3+oHLlxBngrhOTENzys3Lr4M5mHN+EWKCkUsV
+-----END CERTIFICATE-----
