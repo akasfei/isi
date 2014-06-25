@@ -74,6 +74,19 @@ ContentCtrl.$inject = ['$scope', '$route', '$http'];
 
 function NewCtrl ($scope, $http, $window) {
   $scope.form = {};
+  $scope.users = [];
+  $http({
+    method: 'GET',
+    url: '/users'
+  })
+  .success(function (data, status) {
+    if (data.users)
+      $scope.users = data.users;
+  })
+  .error(function (data, status) {
+    $alertService.send('An error has ocurred. Please try again later.');
+    if (data.err) console.log(data.err);
+  });
   $scope.submit = function () {
     $http({
       method: 'PUT',
